@@ -1,0 +1,21 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+application-local.*
+*.pem
+*.key
+
+# Dependencies, build outputs and local state
+node_modules/
+dist/
+target/
+build/
+uploads/
+data/
+logs/
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

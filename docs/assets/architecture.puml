@@ -1,0 +1,38 @@
+@startuml
+title check@collect 组件架构
+skinparam componentStyle uml2
+component "响应式 Web 客户端\n四模块对应页面" as Client
+rectangle "单个后端应用进程" {
+  component "M1 用户与应用入口" as M1
+  component "M2 POI 采集与地图" as M2
+  component "M3 核验与异议处理" as M3
+  component "M4 消息与交流" as M4
+}
+database "PostgreSQL\n各模块拥有自己的表" as DB
+artifact "照片目录\nM2 管理" as Photos
+queue "RabbitMQ" as MQ
+cloud "外部平台" {
+  component "微信授权" as WX
+  component "地图服务" as Map
+  component "OCR API" as OCR
+}
+Client ..> M1 : HTTPS 登录
+Client ..> M2 : HTTPS 采集/地图
+Client ..> M3 : HTTPS 核验/异议
+Client ..> M4 : HTTPS 通知/聊天
+M2 ..> M1 : 身份与角色
+M3 ..> M1 : 身份与角色
+M4 ..> M1 : 身份与角色
+M3 ..> M2 : 版本与核验摘要
+M2 ..> M4 : 新数据通知
+M3 ..> M4 : 问题/任务/裁定通知
+M1 ..> DB
+M2 ..> DB
+M3 ..> DB
+M4 ..> DB
+M2 ..> Photos
+M4 ..> MQ : 发布/消费通知
+M1 ..> WX
+M2 ..> Map
+M2 ..> OCR
+@enduml

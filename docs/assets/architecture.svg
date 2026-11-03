@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1120" height="850" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1120 850" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>check@collect UML 组件图</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1120" height="850"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-850)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="398.0" y="820" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 24px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1640) scale(1,-1)">check@collect · UML 组件图</text>
+			<rect x="365" y="710" width="390" height="75" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(90%,95%,93%); fill-rule: evenodd;"/>
+			<rect x="731" y="757" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="727" y="769" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="727" y="761" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="492.0" y="755" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1510) scale(1,-1)">响应式 Web 客户端</text>
+			<text x="446.25" y="728" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1456) scale(1,-1)">四业务模块页面 · 手机 / 桌面浏览器</text>
+			<rect x="20" y="305" width="1080" height="360" style="stroke: rgb(63%,72%,76%); stroke-linecap: butt; stroke-width: 1.2; fill: none; fill-rule: evenodd;"/>
+			<text x="432.5" y="638" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 17px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1276) scale(1,-1)">单个后端应用进程 · 模块化单体</text>
+			<rect x="40" y="465" width="230" height="108" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="246" y="545" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="242" y="557" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="242" y="549" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="87.0" y="543" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1086) scale(1,-1)">M1 用户与应用入口</text>
+			<text x="83.5" y="516" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1032) scale(1,-1)">登录 / 角色 / 公共入口</text>
+			<text x="96.5" y="495" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,990) scale(1,-1)">拥有用户及绑定数据</text>
+			<rect x="310" y="465" width="230" height="108" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="516" y="545" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="512" y="557" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="512" y="549" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="357.0" y="543" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1086) scale(1,-1)">M2 POI 采集与地图</text>
+			<text x="356.75" y="516" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1032) scale(1,-1)">拍照定位 / 地图 / OCR</text>
+			<text x="363.25" y="495" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,990) scale(1,-1)">拥有 POI 及采集版本</text>
+			<rect x="580" y="465" width="230" height="108" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="786" y="545" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="782" y="557" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="782" y="549" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="627.0" y="543" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1086) scale(1,-1)">M3 核验与异议处理</text>
+			<text x="617.0" y="516" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1032) scale(1,-1)">错误 / 整改 / 第三方裁定</text>
+			<text x="636.5" y="495" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,990) scale(1,-1)">拥有核验及异议记录</text>
+			<rect x="850" y="465" width="230" height="108" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="1056" y="545" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1052" y="557" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1052" y="549" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="913.0" y="543" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1086) scale(1,-1)">M4 消息与交流</text>
+			<text x="883.75" y="516" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,1032) scale(1,-1)">点发 / 群发 / 私聊 / 群聊</text>
+			<text x="906.5" y="495" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,990) scale(1,-1)">拥有通知及会话记录</text>
+			<path d="M 400,710 L 155,665 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 155,665 L 155,573 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 155,573 L 158.91469,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 155,573 L 151.08531,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 495,710 L 425,665 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 425,665 L 425,573 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 425,573 L 428.91469,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 425,573 L 421.08531,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 625,710 L 695,665 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 695,665 L 695,573 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 695,573 L 698.91469,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 695,573 L 691.08531,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 720,710 L 965,665 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,665 L 965,573 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,573 L 968.91469,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 965,573 L 961.08531,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="504.75" y="687" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,1374) scale(1,-1)">HTTPS 请求 / 响应</text>
+			<path d="M 310,520 L 270,520 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 270,520 L 278.104024,516.08531 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 270,520 L 278.104024,523.91469 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="278.0" y="539" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,1078) scale(1,-1)">身份</text>
+			<path d="M 580,520 L 540,520 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 540,520 L 548.104024,516.08531 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 540,520 L 548.104024,523.91469 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="548.0" y="539" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,1078) scale(1,-1)">版本</text>
+			<path d="M 810,520 L 850,520 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 850,520 L 841.895976,523.91469 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 850,520 L 841.895976,516.08531 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="818.0" y="539" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,1078) scale(1,-1)">通知</text>
+			<path d="M 425,573 L 425,605 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 425,605 L 965,605 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,605 L 965,573 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,573 L 968.91469,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 965,573 L 961.08531,581.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="660.0" y="610" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,1220) scale(1,-1)">新数据通知</text>
+			<path d="M 695,465 L 695,430 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 695,430 L 155,430 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 155,430 L 155,465 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 155,465 L 151.08531,456.895976 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 155,465 L 158.91469,456.895976 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="347.0" y="438" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,876) scale(1,-1)">M3 使用 M1 身份 / 角色服务</text>
+			<path d="M 965,465 L 965,393 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,393 L 155,393 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 155,393 L 155,465 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 155,465 L 151.08531,456.895976 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 155,465 L 158.91469,456.895976 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="482.0" y="401" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,802) scale(1,-1)">M4 使用 M1 身份 / 角色服务</text>
+			<text x="322.0" y="332" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 14px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,664) scale(1,-1)">模块内部：页面交互 → 应用业务 → 数据访问；模块间仅使用公开服务接口</text>
+			<rect x="40" y="180" width="770" height="94" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,96%,92%); fill-rule: evenodd;"/>
+			<text x="341.0" y="244" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,488) scale(1,-1)">PostgreSQL + 照片目录</text>
+			<text x="298.25" y="217" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,434) scale(1,-1)">各模块拥有自己的数据表；M2 管理照片文件</text>
+			<rect x="850" y="180" width="230" height="94" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,96%,92%); fill-rule: evenodd;"/>
+			<text x="933.0" y="244" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,488) scale(1,-1)">RabbitMQ</text>
+			<text x="906.5" y="217" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 13px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,434) scale(1,-1)">M4 发布 / 消费通知</text>
+			<path d="M 425,305 L 425,274 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 425,274 L 428.91469,282.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 425,274 L 421.08531,282.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="499.0" y="285" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,570) scale(1,-1)">各模块持久化</text>
+			<path d="M 1080,465 L 1090,465 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 1090,465 L 1090,285 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 1090,285 L 965,285 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,285 L 965,274 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 965,274 L 968.91469,282.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 965,274 L 961.08531,282.104024 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<rect x="20" y="35" width="1080" height="107" style="stroke: rgb(63%,72%,76%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<text x="395.0" y="119" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 15px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,238) scale(1,-1)">外部平台适配：M1 接入微信；M2 接入地图与 OCR</text>
+			<rect x="40" y="45" width="320" height="60" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="336" y="77" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="332" y="89" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="332" y="81" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="168.0" y="75" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,150) scale(1,-1)">微信授权</text>
+			<text x="155.0" y="57" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,114) scale(1,-1)">微信登录 / 绑定</text>
+			<rect x="400" y="45" width="320" height="60" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="696" y="77" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="692" y="89" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="692" y="81" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="528.0" y="75" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,150) scale(1,-1)">地图服务</text>
+			<text x="485.0" y="57" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,114) scale(1,-1)">查询 / 显示 / 路线 / 导航</text>
+			<rect x="760" y="45" width="320" height="60" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="1056" y="77" width="14" height="18" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1052" y="89" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1052" y="81" width="7" height="4" style="stroke: rgb(16%,28%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="892.0" y="75" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 16px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,150) scale(1,-1)">OCR API</text>
+			<text x="851.0" y="57" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,114) scale(1,-1)">照片文字识别 / 分类建议</text>
+			<path d="M 20,500 L 8,500 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 8,500 L 8,90 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 8,90 L 20,90 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1; stroke-dasharray: 5, 4;"/>
+			<path d="M 20,90 L 11.895976,93.91469 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 20,90 L 11.895976,86.08531 Z" style="stroke: rgb(9%,43%,47%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="55.0" y="151" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(9%,43%,47%); stroke:none;" transform="translate(0,302) scale(1,-1)">平台调用</text>
+			<text x="356.0" y="12" style="font-family: SimHei, Microsoft YaHei, sans-serif; font-size: 12px;fill: rgb(16%,28%,34%); stroke:none;" transform="translate(0,24) scale(1,-1)">组件符号：UML 组件；虚线开放箭头：使用依赖；外框：系统边界或部署分组</text>
+		</g>
+	</g>
+</svg>
