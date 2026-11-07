@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: checkcollect
+      POSTGRES_USER: checkcollect
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:?Set DATABASE_PASSWORD in .env}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U checkcollect -d checkcollect"]
+      interval: 5s
+      retries: 10
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    profiles: ["messaging"]
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+volumes:
+  postgres_data:
