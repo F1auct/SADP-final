@@ -5,6 +5,12 @@ spring:
     url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/checkcollect}
     username: ${DATABASE_USER:checkcollect}
     password: ${DATABASE_PASSWORD:checkcollect}
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:guest}
+    password: ${RABBITMQ_PASSWORD:guest}
+    connection-timeout: ${RABBITMQ_CONNECTION_TIMEOUT:3s}
 server:
   port: ${SERVER_PORT:8080}
   servlet:
@@ -21,3 +27,13 @@ app:
     app-id: ${WECHAT_APP_ID:}
     app-secret: ${WECHAT_APP_SECRET:}
     redirect-uri: ${WECHAT_REDIRECT_URI:}
+  messaging:
+    # rabbit：使用 RabbitMQ；in-process：不启动中间件，直接调用同一套幂等投递逻辑（本地联调）。
+    transport: ${MESSAGING_TRANSPORT:rabbit}
+    exchange: ${MESSAGING_EXCHANGE:checkcollect.notifications}
+    queue: ${MESSAGING_QUEUE:checkcollect.notifications.delivery}
+    routing-key: ${MESSAGING_ROUTING_KEY:notification}
+    retry-interval-ms: ${MESSAGING_RETRY_INTERVAL_MS:15000}
+    max-attempts: ${MESSAGING_MAX_ATTEMPTS:20}
+    # 开发消息桩（模拟 B/C 调用），生产环境设为 false。
+    stub-enabled: ${MESSAGING_STUB_ENABLED:true}
