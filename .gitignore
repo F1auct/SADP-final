@@ -19,3 +19,4 @@ logs/
 .vscode/
 .DS_Store
 Thumbs.db
+backend/src/main/resources/static/

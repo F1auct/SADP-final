@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: check-collect
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/checkcollect}
+    username: ${DATABASE_USER:checkcollect}
+    password: ${DATABASE_PASSWORD:checkcollect}
+server:
+  port: ${SERVER_PORT:8080}
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        same-site: lax
+        secure: ${SESSION_COOKIE_SECURE:false}
+      timeout: 12h
+app:
+  frontend:
+    base-url: ${FRONTEND_BASE_URL:http://localhost:5173}
+  wechat:
+    app-id: ${WECHAT_APP_ID:}
+    app-secret: ${WECHAT_APP_SECRET:}
+    redirect-uri: ${WECHAT_REDIRECT_URI:}
